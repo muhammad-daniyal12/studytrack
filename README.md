@@ -97,6 +97,19 @@ npm run dev
 Frontend: http://localhost:5173
 Backend: http://localhost:5000
 
+## GitHub Pages Deployment
+
+The React frontend is configured to deploy automatically through GitHub Actions
+at:
+
+https://muhammad-daniyal12.github.io/studytrack/
+
+GitHub Pages only hosts the frontend. The Express server and SQLite database
+still need to run on a separate backend host for registration, login, tasks,
+subjects, expenses, and dashboard data to work online. Set the `VITE_API_URL`
+repository variable to the deployed backend API URL before using the published
+frontend with real data.
+
 ## API Overview
 
 Auth:
